@@ -3,8 +3,9 @@ h3 {
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   font-weight: 500;
-  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
   color: #ec5d57;
+  margin: 10px;
+  padding: 5px;
 }
 
 form {
@@ -16,26 +17,27 @@ label {
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   font-weight: 500;
-  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
-  font-size: 0.5rem;
-  padding-left: 5px;
+  font-size: 0.6rem;
+  padding-left: 7px;
 }
 
 input,
 select {
-  height: 25px;
+  height: 30px;
   width: 100%;
   padding: 5px;
   font-size: 0.6rem;
   font-family: AtlasGrotesk, sans-serif;
   font-style: normal;
   font-weight: 300;
-  src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
 }
 
 div {
   text-align: right;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 button {
@@ -50,4 +52,12 @@ button {
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   font-weight: 500;
+}
+
+select:last-child {
+  background-color: #f3f3f3;
+}
+
+input {
+  color: gray;
 }
