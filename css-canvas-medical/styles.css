@@ -22,6 +22,12 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
 img {
   width: 100%;
 }
@@ -37,6 +43,10 @@ section {
 
 .col-full {
   flex-basis: 100%;
+}
+
+.col-half {
+  flex-basis: 50%;
 }
 
 .col-thirds {
@@ -58,6 +68,14 @@ section {
   flex-wrap: wrap;
 }
 
+.m-top {
+  margin-top: 10px;
+}
+
+.m-bottom {
+  margin-bottom: 50px;
+}
+
 .address {
   font-size: small;
   line-height: 20px;
@@ -67,4 +85,61 @@ section {
 
 .company {
   padding-left: 50%;
+}
+
+.clinicians {
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.ready-button {
+  display: flex;
+  justify-content: end;
+}
+
+.light-g {
+  color: #6e6e6e;
+}
+
+.centering {
+  text-align: center;
+}
+
+.start-button {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #2a4463;
+  color: white;
+  margin: 30px 50px 40px 0;
+  padding: 10px 30px;
+}
+
+.grid {
+  display: grid;
+}
+
+.font-s {
+  font-size: small;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pl-6 {
+  padding-left: 6rem;
+}
+
+.pr-6 {
+  padding-right: 6rem;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+.squeeze {
+  padding: 0 15rem;
+  line-height: 1.5rem;
 }
