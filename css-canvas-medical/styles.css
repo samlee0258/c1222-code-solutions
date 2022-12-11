@@ -127,12 +127,12 @@ section {
   padding-bottom: 20px;
 }
 
-.pl-6 {
-  padding-left: 6rem;
+.pl-3 {
+  padding-left: 3rem;
 }
 
-.pr-6 {
-  padding-right: 6rem;
+.pr-3 {
+  padding-right: 3rem;
 }
 
 .pl-60 {
@@ -140,6 +140,6 @@ section {
 }
 
 .squeeze {
-  padding: 0 15rem;
+  padding: 0 16rem;
   line-height: 1.5rem;
 }
