@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Barlow, sans-serif;
+  font-size: normal;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-one-fourth {
+  flex-basis: calc(100% / 4);
+}
