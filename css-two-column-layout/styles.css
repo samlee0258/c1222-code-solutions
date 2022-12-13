@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: Karla, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 header {
@@ -15,10 +15,13 @@ header {
 }
 
 h1 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
   display: flex;
   justify-content: center;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.2rem;
+  width: 100%;
 }
 
 p {
@@ -27,13 +30,20 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 80%;
 }
 
 h1,
 h3,
 button {
   text-transform: uppercase;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: small;
 }
 
 button {
@@ -50,7 +60,6 @@ button {
 }
 
 section {
-  font-size: small;
   margin: auto;
   padding: 0.5rem;
 }
@@ -91,4 +100,12 @@ section {
 
 .center {
   text-align: center;
+}
+
+.font-s {
+  font-size: small;
+}
+
+.font-xs {
+  font-size: x-small;
 }
