@@ -8,13 +8,18 @@ body {
   font-size: normal;
 }
 
-h2 {
+h3 {
   display: flex;
   justify-content: center;
 }
 
 img {
   width: 100%;
+}
+
+section {
+  text-align: center;
+  font-size: x-small;
 }
 
 .container {
@@ -26,10 +31,19 @@ img {
   display: flex;
 }
 
+.spacing {
+  margin: 0 0.5rem;
+  padding: 0 rem;
+}
+
 .col-full {
   flex-basis: 100%;
 }
 
 .col-one-fourth {
   flex-basis: calc(100% / 4);
+}
+
+.icon {
+  width: 25%;
 }
