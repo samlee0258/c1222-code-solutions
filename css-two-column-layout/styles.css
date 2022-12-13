@@ -17,12 +17,12 @@ header {
 h1 {
   display: flex;
   justify-content: center;
-  font-weight: 600;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
 }
 
 p {
-  text-align: center;
-  font-size: x-small;
+  font-size: small;
   color: #858585;
 }
 
@@ -87,4 +87,8 @@ section {
   padding: 1rem 2rem;
   width: 100%;
   border: 1px solid transparent;
+}
+
+.center {
+  text-align: center;
 }
