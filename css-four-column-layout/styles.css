@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Barlow, sans-serif;
+  font-size: normal;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  text-align: center;
+  font-size: x-small;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.spacing {
+  margin: 0 0.5rem;
+  padding: 0 rem;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.icon {
+  width: 25%;
+}
