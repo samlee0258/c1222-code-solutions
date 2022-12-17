@@ -7,3 +7,13 @@
       - if it is not null, add into the empty array
   - return the new array with values not equaling to null
 */
+
+function filterOutNulls(values) {
+  var noNull = [];
+  for (var i = 0; i < values.length; i++) {
+    if (values[i] !== null) {
+      noNull.push(values[i]);
+    }
+  }
+  return noNull;
+}

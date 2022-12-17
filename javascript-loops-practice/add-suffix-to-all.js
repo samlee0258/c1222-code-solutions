@@ -7,3 +7,11 @@
     - push the strings with their new suffix into the output array
   - return the output array
 */
+
+function addSuffixToAll(words, suffix) {
+  var addSuffixArr = [];
+  for (var i = 0; i < words.length; i++) {
+    addSuffixArr.push(words[i] + suffix);
+  }
+  return addSuffixArr;
+}

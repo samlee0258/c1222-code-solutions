@@ -8,3 +8,11 @@
     - then push the values into the empty array with the push method
   - return the values out of the function
 */
+
+function getStudentNames(students) {
+  var studentNames = [];
+  for (var i = 0; i < students.length; i++) {
+    studentNames.push(students[i].name);
+  }
+  return studentNames;
+}
