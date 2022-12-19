@@ -1,6 +1,7 @@
 /* exported toObject */
 /*
-
+  - define a function named toObject with one parameter "keyValuePair"
+  -
 */
 
 function toObject(keyValuePair) {
