@@ -1,12 +1,16 @@
 /* exported compact */
 /*
-
+  - define a function named compact with one parameter "array"
+  - create a variable assigned to an empty array
+  - create a for loop to loop throught the array
+    - if the index value is not strictly equal to a falsy value, push into output array
+  - return output array
 */
 
 function compact(array) {
   var truthyArr = [];
   for (var i = 0; i < array.length; i++) {
-    if (array[i] !== false && array[i] !== null && array[i] !== Number.isNaN() && array[i] !== undefined && array[i] !== '' && array[i] !== 0) {
+    if (array[i] !== false && array[i] !== null && array.isNaN(Number.NaN) && array[i] !== undefined && array[i] !== '' && array[i] !== 0) {
       truthyArr.push(array[i]);
     }
   }
