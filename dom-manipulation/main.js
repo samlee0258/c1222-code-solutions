@@ -4,9 +4,6 @@
 */
 function clicked(event) {
   $counter.textContent = 'Clicks: ' + ++numberOfClicks;
-}
-
-function tempChange(event) {
   var temperature = null;
   if (numberOfClicks < 4) {
     temperature = 'cold';
@@ -21,7 +18,7 @@ function tempChange(event) {
   } else {
     temperature = 'nuclear';
   }
-  $hot.className = '.hot-button' + temperature;
+  $hot.className = '.hot-button' + ' ' + temperature;
 }
 
 var numberOfClicks = 0;
@@ -29,4 +26,3 @@ var $hot = document.querySelector('.hot-button');
 var $counter = document.querySelector('.click-count');
 
 $hot.addEventListener('click', clicked);
-$hot.addEventListener('click', tempChange);
