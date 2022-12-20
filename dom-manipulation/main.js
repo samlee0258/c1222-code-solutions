@@ -1,7 +1,3 @@
-/*
-  - create a new variable that stores the number of times the use clicked the button
-  -
-*/
 function clicked(event) {
   $counter.textContent = 'Clicks: ' + ++numberOfClicks;
   var temperature = null;
@@ -18,7 +14,7 @@ function clicked(event) {
   } else {
     temperature = 'nuclear';
   }
-  $hot.className = '.hot-button' + ' ' + temperature;
+  $hot.className = 'hot-button' + ' ' + temperature;
 }
 
 var numberOfClicks = 0;
