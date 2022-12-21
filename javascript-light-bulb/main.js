@@ -1,6 +1,6 @@
 // var $button = document.querySelector('button');
-// // $button.addEventListener('click', toggle);
+// $button.addEventListener('click', toggle);
 
-// // function toggle(event) {
+// function toggle(event) {
 
-// // }
+// }
