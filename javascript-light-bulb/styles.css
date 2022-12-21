@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fef9f1;
+}
+
+button {
+  display: block;
+  padding: 100px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px 1px #fef085;
+  background-color: #fef085;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 25% auto;
+}
