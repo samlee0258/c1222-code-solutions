@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  padding: 0 100px;
+  padding: 0 50px;
   margin: 0 100px;
 }
 
@@ -27,10 +27,14 @@ h1 {
 p {
   font-size: small;
   color: #858585;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 img {
-  width: 80%;
+  width: 100%;
 }
 
 h1,
@@ -93,7 +97,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  padding: 1rem 2rem;
+  padding: 1rem;
   width: 100%;
   border: 1px solid transparent;
 }
@@ -108,4 +112,12 @@ section {
 
 .font-xs {
   font-size: x-small;
+}
+
+.letter-space {
+  letter-spacing: 0.25px;
+}
+
+.m-top-15 {
+  margin-top: 15px;
 }
