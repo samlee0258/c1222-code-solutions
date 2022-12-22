@@ -20,6 +20,7 @@ a {
   font-weight: 500;
   padding: 0 1rem;
   text-decoration: none;
+  color: inherit;
 }
 
 h2 {
@@ -197,7 +198,7 @@ section {
 
 .absolute {
   position: absolute;
-  top: 14rem;
+  top: 10rem;
   right: 18rem;
   left: 10rem;
   bottom: 10rem;
@@ -219,4 +220,16 @@ section {
   bottom: 50px;
   right: 65px;
   left: 65px;
+}
+
+.b-bottom {
+  border-bottom: 1px solid lightgray;
+}
+
+.negative-mt {
+  margin-top: -1.5rem;
+}
+
+.negative-mb {
+  margin-bottom: -1rem;
 }
