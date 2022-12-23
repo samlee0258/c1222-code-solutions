@@ -2,17 +2,11 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #fef9f1;
-}
-
 button {
   display: block;
   padding: 100px;
   border-radius: 50%;
   border: 1px solid transparent;
-  box-shadow: 0 0 10px 1px #fef085;
-  background-color: #fef085;
 }
 
 .wrapper {
@@ -21,5 +15,22 @@ button {
   align-items: center;
   height: 100%;
   width: 100%;
-  margin: 25% auto;
+  margin: 20% auto;
+}
+
+.off-button {
+  background-color: #25292d;
+}
+
+.on-button {
+  box-shadow: 0 0 10px 1px #fef085;
+  background-color: #fef085;
+}
+
+.off {
+  background-color: black;
+}
+
+.on {
+  background-color: #fef9f1;
 }
