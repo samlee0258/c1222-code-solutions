@@ -1,7 +1,9 @@
 /* exported toObject */
 /*
   - define a function named toObject with one parameter "keyValuePair"
-  -
+  - create a variable assigned to an empty object
+  - take the key and its value and store into output object
+  - return output object
 */
 
 function toObject(keyValuePair) {
