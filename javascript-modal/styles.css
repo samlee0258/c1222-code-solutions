@@ -19,9 +19,6 @@
 
 body {
   margin: 0 auto;
-  background-color: rgb(0 0 0 / 80%);
-
-  /* display: none; */
 }
 
 h2 {
@@ -47,7 +44,7 @@ h2 {
   font-size: x-large;
 }
 
-.no-survey {
+.close-modal {
   background-color: red;
   color: white;
   border: 1px solid transparent;
@@ -90,6 +87,18 @@ h2 {
   bottom: 10px;
 }
 
+.body-bg {
+  background-color: rgb(0 0 0 / 80%);
+}
+
 .bg-color {
   background-color: white;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: contents;
 }
