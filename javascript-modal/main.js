@@ -8,7 +8,12 @@
       - $body class name is assigned 'body-bg'
       - $fixedBox class name is assigned 'fixed border p-sides bg-color body-bg visible'
       - $closeModal class name is assigned 'visible close-modal font-size'
-      - $openModal class name is assigned 'font-size open-modal dim'
+      - $openModal class name is assigned 'dim'
+    - else
+      - $openModal class name is assigned 'open-modal'
+      - $closeModal class name is assigned 'hidden close-modal font-size'
+      - $body class name is assigned 'bg-color'
+      - $fixedBox class name is assigned 'fixed border p-sides bg-color body-bg hidden'
 */
 
 var $openModal = document.querySelector('.open-modal');
