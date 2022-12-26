@@ -25,6 +25,17 @@ h2 {
   text-align: center;
 }
 
+.close-modal {
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+  box-shadow: 1px 2px lightgray;
+  border-radius: 5px;
+  height: auto;
+  width: 100px;
+  padding: 0.5rem 1rem;
+}
+
 .open-modal-container {
   margin: 10px;
 }
@@ -38,21 +49,11 @@ h2 {
   height: auto;
   width: 200px;
   padding: 0.5rem 1rem;
+  font-size: x-large;
 }
 
 .font-size {
   font-size: x-large;
-}
-
-.close-modal {
-  background-color: red;
-  color: white;
-  border: 1px solid transparent;
-  box-shadow: 1px 2px lightgray;
-  border-radius: 5px;
-  height: auto;
-  width: 100px;
-  padding: 0.5rem 1rem;
 }
 
 .center {
@@ -88,17 +89,30 @@ h2 {
 }
 
 .body-bg {
-  background-color: rgb(0 0 0 / 80%);
+  background-color: rgb(50 50 50);
+
+  /* background-color: rgb(0 0 0 / 80%); */
 }
 
 .bg-color {
   background-color: white;
 }
 
-.none {
-  display: none;
+.visible {
+  visibility: visible;
 }
 
-.block {
-  display: contents;
+.hidden {
+  visibility: hidden;
+}
+
+.dim {
+  background-color: #100f2e;
+  color: rgb(50 50 50);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  height: auto;
+  width: 200px;
+  padding: 0.5rem 1rem;
+  font-size: x-large;
 }
