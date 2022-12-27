@@ -3,10 +3,10 @@
 // window.addEventListener('keydown', keyBoard);
 
 // function keyBoard(event) {
-//   for (var i = 0; i < $phrase.length; i++) {
-//     if () {
-
-//     }
+//   if () {
+//     console.log('worked');
+//   } else {
+//     console.log('didnt work');
 //   }
-//   console.log('key pressed');
+//   // console.log('key pressed');
 // }
