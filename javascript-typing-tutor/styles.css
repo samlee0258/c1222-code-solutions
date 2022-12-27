@@ -3,14 +3,10 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
-  font-weight: 800px;
+  font-family: "Courier Prime", monospace;
+  font-size: x-large;
+  font-weight: 700px;
 }
-
-/* span {
-  color: rgb(24 205 26);
-} */
 
 .center {
   display: flex;
@@ -25,4 +21,8 @@ body {
 
 .correct {
   color: rgb(24 205 26);
+}
+
+.underline {
+  border-bottom: 2px solid black;
 }

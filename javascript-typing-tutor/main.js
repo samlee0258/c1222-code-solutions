@@ -1,6 +1,12 @@
-// var $keyPress = document.querySelectorAll('span');
-// $keyPress.addEventListener('keydown', keyPress);
+// var $phrase = document.querySelectorAll('span');
 
-// function keyPress(event) {
-//   console.log('key pressed!');
+// window.addEventListener('keydown', keyBoard);
+
+// function keyBoard(event) {
+//   for (var i = 0; i < $phrase.length; i++) {
+//     if () {
+
+//     }
+//   }
+//   console.log('key pressed');
 // }
