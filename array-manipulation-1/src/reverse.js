@@ -11,9 +11,7 @@
 function reverse(array) {
   var reverseArr = [];
   for (var i = array.length - 1; i >= 0; i--) {
-    if (i !== -1) {
-      reverseArr.push(array[i]);
-    }
+    reverseArr.push(array[i]);
   }
   return reverseArr;
 }
