@@ -1,12 +1,15 @@
-// var $phrase = document.querySelectorAll('span');
+var $phrase = document.querySelectorAll('span');
+var counter = 0;
 
-// window.addEventListener('keydown', keyBoard);
+window.addEventListener('keydown', keyBoard);
 
-// function keyBoard(event) {
-//   if () {
-//     console.log('worked');
-//   } else {
-//     console.log('didnt work');
-//   }
-//   // console.log('key pressed');
-// }
+function keyBoard(event) {
+  while (counter === event.key) {
+    counter++;
+  }
+  if ($phrase[counter].textContent === event.key) {
+    $phrase[counter].className = 'correct underline';
+  } else if ($phrase[counter].textContent !== event.key) {
+    $phrase[counter].className = 'incorrect underline';
+  }
+}
