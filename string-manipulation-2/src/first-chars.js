@@ -5,3 +5,7 @@
   - get the characters from the string
   - return length of string
 */
+
+function firstChars(length, string) {
+  return string.slice(0, length);
+}

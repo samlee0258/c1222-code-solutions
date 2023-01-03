@@ -9,3 +9,7 @@
     - push the characters into output array
   - return output array
 */
+
+function lastChars(length, string) {
+  return string.slice(string.charAt(string.length - 1), length);
+}
