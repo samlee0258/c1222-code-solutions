@@ -11,9 +11,6 @@ function capitalizeWord(word) {
   if (word !== 'JavaScript') {
     return word.charAt(0).toUpperCase() + word.slice(1, word.length).toLowerCase();
   } else {
-    word.split('');
-    // var java = word.charAt(0).toUpperCase() + word.slice(1, 3).toLowerCase();
-    // var script = word.charAt(0).toUpperCase() + word.slice(1, 5).toLowerCase();
-    // return java + script;
+    return word.slice(0, 3) + word.charAt(0).toUpperCase() + word.slice(4, 9) + word.charAt(4).toUpperCase();
   }
 }
