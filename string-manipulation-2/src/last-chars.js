@@ -11,5 +11,5 @@
 */
 
 function lastChars(length, string) {
-  return string.slice(string.charAt(string.length - 1), length);
+  return string.slice(string.length - length);
 }

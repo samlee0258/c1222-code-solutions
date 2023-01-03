@@ -14,8 +14,11 @@ function numVowels(string) {
   var vowelCount = 0;
   var eachLetter = string.split('');
   for (var i = 0; i < eachLetter.length; i++) {
-    if (eachLetter[i] === vowels) {
-      vowelCount++;
+    for (var k = 0; k < vowels.length; k++) {
+      if (eachLetter[i] === vowels[k]) {
+        vowelCount++;
+        break;
+      }
     }
   }
   return vowelCount;
