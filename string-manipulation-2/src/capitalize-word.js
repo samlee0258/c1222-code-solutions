@@ -8,9 +8,13 @@
 */
 
 function capitalizeWord(word) {
-  if (word !== 'JavaScript') {
-    return word.charAt(0).toUpperCase() + word.slice(1, word.length).toLowerCase();
+  var arr = [];
+  word = word.toLowerCase();
+  if (word === 'JavaScript') {
+    arr.push(word.charAt(0).toUpperCase() + word.slice(1, 3));
+    arr.push(word.charAt(4).toUpperCase() + word.slice(5, 9));
+    return arr;
   } else {
-    return word.slice(0, 3) + word.charAt(0).toUpperCase() + word.slice(4, 9) + word.charAt(4).toUpperCase();
+    return word.charAt(0).toUpperCase() + word.slice(1, word.length).toLowerCase();
   }
 }
