@@ -1,15 +1,13 @@
-function countdown() {
-  var $h1 = document.querySelector('h1');
+var count = 4;
+var countdownId = setInterval(countdown, 1000);
+var $countdown = document.querySelector('.countdown-display');
 
-  if ($h1.textContent === '4') {
-    $h1.textContent = '3';
-  } else if ($h1.textContent === '3') {
-    $h1.textContent = '2';
-  } else if ($h1.textContent === '2') {
-    $h1.textContent = '1';
-  } else if ($h1.textContent === '1') {
-    $h1.textContent = '~Earth Beeeelooowww Us~';
+function countdown() {
+  count--;
+  if (count > 0) {
+    $countdown.textContent = count;
+  } else {
+    $countdown.textContent = '~Earth Beeeelooowww Us~';
+    clearInterval(countdownId);
   }
 }
-
-setInterval(countdown, 1000);
